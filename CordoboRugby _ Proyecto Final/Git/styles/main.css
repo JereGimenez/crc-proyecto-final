@@ -1,0 +1,251 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #64b2ed;
+  border-radius: 5px;
+}
+
+header .header_logoTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .header_logoTitulo .logo {
+  height: 70px;
+  margin: 10px;
+}
+
+header .header_logoTitulo .resenia {
+  margin: 10px;
+}
+
+header .header_buscadorNav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header .header_buscadorNav nav {
+  margin-top: 20px;
+}
+
+header .header_buscadorNav nav ul {
+  word-spacing: 10px;
+  text-transform: uppercase;
+  padding: 0px;
+}
+
+header .header_buscadorNav nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1rem;
+}
+
+header .header_buscadorNav nav ul li a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #64b2ed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+  }
+  header .header_logoTitulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header_logoTitulo .logo {
+    margin: 10px;
+  }
+  header .header_logoTitulo .logo img {
+    height: 70px;
+  }
+  header .header_logoTitulo .resenia {
+    width: 250px;
+  }
+  header .header_buscadorNav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  header .header_buscadorNav nav ul {
+    word-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px;
+  }
+  header .header_buscadorNav nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 1rem;
+  }
+  header .header_buscadorNav nav ul li a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #64b2ed;
+    position: -webkit-sticky;
+    position: sticky;
+    /* top: 0px; */
+    z-index: 999;
+  }
+  header .header_logoTitulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header_logoTitulo .logo {
+    margin: 10px;
+  }
+  header .header_logoTitulo .logo img {
+    height: 100px;
+  }
+  header .header_logoTitulo .resenia {
+    width: 450px;
+    font-size: 1.3rem;
+  }
+  header .header_buscadorNav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  header .header_buscadorNav nav ul {
+    word-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px;
+  }
+  header .header_buscadorNav nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 1rem;
+  }
+  header .header_buscadorNav nav ul li a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: bold;
+  }
+  header .header_buscadorNav nav ul li a:hover {
+    color: #2245e0;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 1920px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #64b2ed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+  }
+  header .header_logoTitulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header_logoTitulo .logo {
+    margin: 10px;
+  }
+  header .header_logoTitulo .logo img {
+    height: 100px;
+  }
+  header .header_logoTitulo .resenia {
+    width: 800px;
+    font-size: 2rem;
+  }
+  header .header_buscadorNav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  header .header_buscadorNav nav ul {
+    word-spacing: 30px;
+    text-transform: uppercase;
+    padding: 0px;
+  }
+  header .header_buscadorNav nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 1.3rem;
+  }
+  header .header_buscadorNav nav ul li a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: bold;
+  }
+  header .header_buscadorNav nav ul li a:hover {
+    color: #2245e0;
+    text-decoration: underline;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
