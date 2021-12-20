@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(rgb(51, 131, 250),black);
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #f78387; /* Red */
+    }
+  }
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #f7c878; /* Yellow */
+    }
+  }
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #bbd6f5; /* Blue */
+    }
+  }
+  
